@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dector.github.io/post/important-relationship-principles/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/howgh/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/blog/</loc>
+    <loc>https://dector.github.io/categories/blog/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/blog/</loc>
+    <loc>https://dector.github.io/tags/blog/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -25,8 +30,50 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/categories/communication/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/communication/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/feedback/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/people/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-05-18T18:24:00+03:00</lastmod>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/relationship/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/social-protocol/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/society/</loc>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -38,7 +85,7 @@
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-05-18T18:24:00+03:00</lastmod>
+    <lastmod>2017-05-20T00:12:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
