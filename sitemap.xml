@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dector.github.io/post/subtle-hints/</loc>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/trust/</loc>
     <lastmod>2017-05-22T22:44:33+03:00</lastmod>
   </url>
@@ -14,6 +19,12 @@
   <url>
     <loc>https://dector.github.io/post/howgh/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/am-i-ok-doctor/</loc>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -36,7 +47,7 @@
   
   <url>
     <loc>https://dector.github.io/tags/communication/</loc>
-    <lastmod>2017-05-22T22:44:33+03:00</lastmod>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,8 +70,20 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/personal/</loc>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/categories/personal/</loc>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-05-22T22:44:33+03:00</lastmod>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,13 +107,13 @@
   
   <url>
     <loc>https://dector.github.io/tags/</loc>
-    <lastmod>2017-05-18T18:24:00+03:00</lastmod>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-05-22T22:44:33+03:00</lastmod>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on There are NO shortcuts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 May 2017 18:24:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 24 May 2017 19:54:54 +0300</lastBuildDate>
     
 	<atom:link href="https://dector.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Am I Ok Doctor</title>
+      <link>https://dector.github.io/tags/am-i-ok-doctor/</link>
+      <pubDate>Wed, 24 May 2017 19:54:54 +0300</pubDate>
+      
+      <guid>https://dector.github.io/tags/am-i-ok-doctor/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
@@ -23,7 +32,7 @@
     <item>
       <title>Communication</title>
       <link>https://dector.github.io/tags/communication/</link>
-      <pubDate>Mon, 22 May 2017 22:44:33 +0300</pubDate>
+      <pubDate>Wed, 24 May 2017 19:54:54 +0300</pubDate>
       
       <guid>https://dector.github.io/tags/communication/</guid>
       <description></description>
@@ -44,6 +53,15 @@
       <pubDate>Mon, 22 May 2017 22:44:33 +0300</pubDate>
       
       <guid>https://dector.github.io/tags/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://dector.github.io/tags/personal/</link>
+      <pubDate>Wed, 24 May 2017 19:54:54 +0300</pubDate>
+      
+      <guid>https://dector.github.io/tags/personal/</guid>
       <description></description>
     </item>
     
