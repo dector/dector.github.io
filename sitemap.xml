@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dector.github.io/post/dont-lie-to-yourself/</loc>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/meta-updating/</loc>
     <lastmod>2017-05-27T00:00:42+03:00</lastmod>
   </url>
@@ -100,19 +105,19 @@
   
   <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-05-27T00:00:42+03:00</lastmod>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dector.github.io/tags/rationality/</loc>
-    <lastmod>2017-05-27T00:00:42+03:00</lastmod>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dector.github.io/categories/rationality/</loc>
-    <lastmod>2017-05-27T00:00:42+03:00</lastmod>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +147,7 @@
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-05-27T00:00:42+03:00</lastmod>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
     <priority>0</priority>
   </url>
   
