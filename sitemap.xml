@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dector.github.io/post/moto-adv-inspiration/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/dont-lie-to-yourself/</loc>
     <lastmod>2017-05-28T00:59:43+03:00</lastmod>
   </url>
@@ -29,6 +34,12 @@
   <url>
     <loc>https://dector.github.io/post/howgh/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/adventures/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -86,6 +97,30 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/inspiration/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/moto/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/motorcycle/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/categories/motorcycle/</loc>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/tags/people/</loc>
     <lastmod>2017-05-22T22:44:33+03:00</lastmod>
     <priority>0</priority>
@@ -105,7 +140,7 @@
   
   <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,13 +176,13 @@
   
   <url>
     <loc>https://dector.github.io/tags/</loc>
-    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
+    <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
