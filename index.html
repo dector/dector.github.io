@@ -44,6 +44,48 @@
     
       
 <article class="list-item" itemscope itemtype="http://schema.org/Blog">
+  <h2 class="headline" itemprop="headline"><a href="/post/debian-mtp/">Connecting MTP device on Debian 8</a></h2>
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2017-06-13">June 13, 2017</time></span>
+
+  </div>
+  <section class="summary">
+    <p>Finally I succeeded with connecting my Android device via MTP protocol.</p>
+
+<p>Command line solution was quite easy. But it took some time for me to try few possible solutions.</p>
+
+<p>Full instructions can be found on <a href="https://wiki.debian.org/mtp#Commandline">Debian wiki</a>. But I&rsquo;ll make some notes for myself here.</p>
+
+<p>Setup <code>jmtpfs</code></p>
+
+<pre><code># aptitude install jmtpfs
+</code></pre>
+
+<p>Create mount folder and setup rights</p>
+
+<pre><code># mkdir /media/Phone
+$ sudo chown $USER:$USER /media/Phone
+</code></pre>
+
+<p>Plug-in device and mount it</p>
+
+<pre><code>$ jmtpfs /media/Phone
+</code></pre>
+
+<p>Unmount with</p>
+
+<pre><code>$ fusermount -u /media/Phone
+</code></pre>
+
+<p></p>  <a href="/post/debian-mtp/">Read More...</a>
+  </section>
+</article>
+
+    
+      
+<article class="list-item" itemscope itemtype="http://schema.org/Blog">
   <h2 class="headline" itemprop="headline"><a href="/post/cognition-goals/">Goals of Cognition</a></h2>
   <div class="meta">
 
@@ -284,6 +326,11 @@
     </h2>
     
     <h2 class="category">
+      <a href="https://dector.github.io/categories/linux">Linux</a>
+      <small>(1)</small>
+    </h2>
+    
+    <h2 class="category">
       <a href="https://dector.github.io/categories/motorcycle">Motorcycle</a>
       <small>(1)</small>
     </h2>
@@ -319,6 +366,11 @@
     </span>
     
     <span class="tag">
+      <a href="https://dector.github.io/tags/android">android</a>
+      <small>(1)</small>
+    </span>
+    
+    <span class="tag">
       <a href="https://dector.github.io/tags/blog">blog</a>
       <small>(1)</small>
     </span>
@@ -331,6 +383,11 @@
     <span class="tag">
       <a href="https://dector.github.io/tags/communication">communication</a>
       <small>(3)</small>
+    </span>
+    
+    <span class="tag">
+      <a href="https://dector.github.io/tags/debian">debian</a>
+      <small>(1)</small>
     </span>
     
     <span class="tag">
@@ -354,12 +411,22 @@
     </span>
     
     <span class="tag">
+      <a href="https://dector.github.io/tags/linux">linux</a>
+      <small>(1)</small>
+    </span>
+    
+    <span class="tag">
       <a href="https://dector.github.io/tags/moto">moto</a>
       <small>(1)</small>
     </span>
     
     <span class="tag">
       <a href="https://dector.github.io/tags/motorcycle">motorcycle</a>
+      <small>(1)</small>
+    </span>
+    
+    <span class="tag">
+      <a href="https://dector.github.io/tags/mtp">mtp</a>
       <small>(1)</small>
     </span>
     

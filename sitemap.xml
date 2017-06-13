@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dector.github.io/post/debian-mtp/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/cognition-goals/</loc>
     <lastmod>2017-06-11T17:51:43+03:00</lastmod>
   </url>
@@ -54,6 +59,12 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/android/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/tags/blog/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
     <priority>0</priority>
@@ -90,6 +101,12 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/debian/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/tags/discussions/</loc>
     <lastmod>2017-05-27T00:00:42+03:00</lastmod>
     <priority>0</priority>
@@ -114,6 +131,18 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/linux/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/categories/linux/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/tags/moto/</loc>
     <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
@@ -128,6 +157,12 @@
   <url>
     <loc>https://dector.github.io/categories/motorcycle/</loc>
     <lastmod>2017-05-28T22:04:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/mtp/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +186,7 @@
   
   <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-06-11T17:51:43+03:00</lastmod>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +228,7 @@
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-06-11T17:51:43+03:00</lastmod>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
