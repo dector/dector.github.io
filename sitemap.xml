@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dector.github.io/post/playing-around-with-api-ai/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dector.github.io/post/debian-mtp/</loc>
     <lastmod>2017-06-13T05:13:08+03:00</lastmod>
   </url>
@@ -58,12 +53,6 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/ai/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dector.github.io/tags/am-i-ok-doctor/</loc>
     <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
@@ -76,19 +65,13 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/api.ai/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dector.github.io/tags/blog/</loc>
+    <loc>https://dector.github.io/categories/blog/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/blog/</loc>
+    <loc>https://dector.github.io/tags/blog/</loc>
     <lastmod>2017-05-18T18:24:00+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -106,26 +89,20 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/communication/</loc>
-    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dector.github.io/categories/communication/</loc>
     <lastmod>2017-05-22T22:44:33+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/debian/</loc>
-    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
+    <loc>https://dector.github.io/tags/communication/</loc>
+    <lastmod>2017-05-24T19:54:54+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/development/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
+    <loc>https://dector.github.io/tags/debian/</loc>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,19 +131,13 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/la/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dector.github.io/tags/linux/</loc>
+    <loc>https://dector.github.io/categories/linux/</loc>
     <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/linux/</loc>
+    <loc>https://dector.github.io/tags/linux/</loc>
     <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -178,13 +149,13 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/motorcycle/</loc>
+    <loc>https://dector.github.io/categories/motorcycle/</loc>
     <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dector.github.io/categories/motorcycle/</loc>
+    <loc>https://dector.github.io/tags/motorcycle/</loc>
     <lastmod>2017-05-28T22:04:53+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -196,20 +167,8 @@
   </url>
   
   <url>
-    <loc>https://dector.github.io/tags/nlp/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dector.github.io/tags/people/</loc>
     <lastmod>2017-05-22T22:44:33+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dector.github.io/tags/personal/</loc>
-    <lastmod>2017-06-11T17:51:43+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,25 +179,25 @@
   </url>
   
   <url>
+    <loc>https://dector.github.io/tags/personal/</loc>
+    <lastmod>2017-06-11T17:51:43+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dector.github.io/post/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dector.github.io/tags/projects/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dector.github.io/tags/rationality/</loc>
-    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://dector.github.io/categories/rationality/</loc>
+    <lastmod>2017-05-28T00:59:43+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dector.github.io/tags/rationality/</loc>
     <lastmod>2017-05-28T00:59:43+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -269,7 +228,7 @@
   
   <url>
     <loc>https://dector.github.io/</loc>
-    <lastmod>2017-07-15T00:59:30+03:00</lastmod>
+    <lastmod>2017-06-13T05:13:08+03:00</lastmod>
     <priority>0</priority>
   </url>
   
