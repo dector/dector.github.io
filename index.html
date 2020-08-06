@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dead Art Space | Notes</title>
-    <!-- Build with 'glow' (non-public yet) using Hyde theme (https://github.com/poole/hyde). -->
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link type="text/css" rel="stylesheet" href="/assets/css/poole.css">
-    <link type="text/css" rel="stylesheet" href="/assets/css/syntax.css">
-    <link type="text/css" rel="stylesheet" href="/assets/css/hyde.css">
-    <link type="text/css" rel="stylesheet" href="/assets/css/fonts.css">
-    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <title>Dead Art Space</title>
+    <link type="text/css" href="/assets/css/tailwind-1.6.2.min.css" rel="stylesheet">
   </head>
 
-  <body>
-    <div class="sidebar">
-      <div class="container sidebar-sticky">
-        <div class="sidebar-about">
-          <h1><a href="/">Dead Art Space</a></h1>
-        </div><nav class="sidebar-nav"><a href="/" class="sidebar-nav-item active">Notes</a><a href=
-        "https://github.com/dector" class="sidebar-nav-item" target="_blank">GitHub</a></nav>
+  <body class="bg-gray-300">
+    <div class="container mx-auto" style="max-width: 100ch;">
+      <div class="px-4 my-8">
+        <a class="text-3xl" href="/">Dead Art Space</a> <span class="float-right space-x-0 pt-3 sm:space-x-5"><a class=
+        "text-xl hover:underline font-semibold" href="/">Notes</a> <a class="text-lg hover:underline" href=
+        "https://github.com/dector">Github</a></span>
+      </div>
+
+      <div class="flex flex-col space-y-8 mb-8">
+        <div class="bg-gray-100 p-8 shadow hover:shadow-xl">
+          <div class="flex flex-wrap justify-between">
+            <a class="text-3xl hover:underline hover:text-blue-900" href=
+            "/notes/2019/12/30/generative-art-2019/">Generative Art 2019</a> <span class="pt-4 text-sm text-gray-600"
+            title="updated Thu, 02 Jan 2020">Mon, 30 Dec 2019</span>
+          </div>
+
+          <div class="py-2 my-4 text-lg text-justify">
+            <p>This year I continued to explore generative art. Unfortunately, not that much as I wanted. At the
+            beginning of the year I was making at least one sketch every day. Then once a week, then once in a while.
+            However, here are some results to remind myself that I need to commit more efforts next year.</p>
+          </div><a class="text-blue-700 text-lg hover:bg-gray-300 hover:underline" href=
+          "/notes/2019/12/30/generative-art-2019/">Read more...</a> 
+
+          <p class="mt-2 flex justify-end space-x-2"><a class="bg-gray-700 text-white rounded-lg px-2 py-1" href=
+          "/notes/tag/genart/">#genart</a> <a class="bg-gray-700 text-white rounded-lg px-2 py-1" href=
+          "/notes/tag/summary/">#summary</a></p>
+        </div>
+
+        <div class="bg-gray-100 p-8 shadow hover:shadow-xl">
+          <div class="flex flex-wrap justify-between">
+            <a class="text-3xl hover:underline hover:text-blue-900" href="/notes/2019/05/19/software-i-use/">Software I
+            Use</a> <span class="pt-4 text-sm text-gray-600" title="updated Sun, 19 Jan 2020">Sun, 19 May 2019</span>
+          </div>
+
+          <div class="py-2 my-4 text-lg text-justify">
+            <p>Few lines about software I'm using this days on my laptop.</p>
+
+            <p>Will be updating from time to time.</p>
+          </div><a class="text-blue-700 text-lg hover:bg-gray-300 hover:underline" href=
+          "/notes/2019/05/19/software-i-use/">Read more...</a>
+        </div>
       </div>
     </div>
 
-    <div class="content container">
-      <div class="posts">
-        <div class="post">
-          <h1 class="post-title"><a href="/notes/2019/12/30/generative-art-2019/">Generative Art 2019</a></h1>
-          <span class="post-date">Mon, 30 Dec 2019 (updated Thu, 02 Jan 2020)</span> 
-
-          <p><strong>Tags:</strong> <a href="/notes/tag/genart/">#genart</a>, <a href=
-          "/notes/tag/summary/">#summary</a></p>
-
-          <p>This year I continued to explore generative art. Unfortunately, not that much as I wanted. At the
-          beginning of the year I was making at least one sketch every day. Then once a week, then once in a while.
-          However, here are some results to remind myself that I need to commit more efforts next year.</p>
-          <a href="/notes/2019/12/30/generative-art-2019/"><strong>Read more...</strong></a>
-        </div>
-
-        <div class="post">
-          <h1 class="post-title"><a href="/notes/2019/05/19/software-i-use/">Software I Use</a></h1>
-          <span class="post-date">Sun, 19 May 2019 (updated Sun, 19 Jan 2020)</span>
-
-          <p>Few lines about software I'm using this days on my laptop.</p>
-
-          <p>Will be updating from time to time.</p>
-          <a href="/notes/2019/05/19/software-i-use/"><strong>Read more...</strong></a>
-        </div>
-      </div>
+    <div class="text-xl text-gray-500 text-center mb-8">
+      Built with <span class="text-2xl font-mono">&#128153;</span> and Glow. 2019 - 2020
     </div>
   </body>
 </html>
