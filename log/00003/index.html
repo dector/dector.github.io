@@ -7,8 +7,8 @@
 
     <title>/dector/log ~ Custom input switch button in GNOME 46</title>
 
-    <link rel="stylesheet" href="/assets/styles.css?1732118995" />
-    <link rel="stylesheet" href="/assets/highlightjs-11.9.0-theme.min.css?1732118995" />
+    <link rel="stylesheet" href="/assets/styles.css?1732120034" />
+    <link rel="stylesheet" href="/assets/highlightjs-11.9.0-theme.min.css?1732120034" />
 
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,13 +47,13 @@ see “switching graphics” in the middle of the screen. And it feels annoying
 (for me).</p>
 </li>
 </ul>
-<p>However, just a few days ago another issue emerged - my <code>Shift+CapsLock</code>
-combination was cycling now between two input methods (that are set up) in
-GNOME. But between three. <code>en_GB</code> appeared additionally and I’m not really
-aware why. All my keyboard tools (e.g. <code>cat /etc/default/keyboard</code> or
+<p>However, just a few days ago another issue emerged: my <code>Shift+CapsLock</code>
+combination was cycling not between two input methods (that are set up) in
+GNOME. But between three. Seems like <code>en_GB</code> appeared additionally and I’m not
+really aware why. All my keyboard tools (e.g. <code>cat /etc/default/keyboard</code> or
 <code>setxkbmap -print</code>) report only two input methods (as expected).</p>
-<p>So I was looking for a workaround to do it programmatically
-So my current workaround is this (probably not optimal and can be improved):</p>
+<p>So my current workaround is this (not optimal and definitely
+can/should/will be improved):</p>
 <ul>
 <li>
 <p>Disabled <code>CapsLock</code> in GNOME settings and changed its meaning to <code>HyperL</code>.</p>
@@ -77,7 +77,7 @@ So my current workaround is this (probably not optimal and can be improved):</p>
 
 </div><ul>
 <li>
-So I changed the binding for it:
+Finally, I’ve changed the binding for it:
 </li>
 </ul>
 <div class="code-block">
