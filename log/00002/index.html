@@ -1,47 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>/dector/log ~ Printing with colors in Deno</title>
 
-    <title>/dector/log ~ Printing with colors in Deno</title>
+        <link rel="stylesheet" href="/assets/styles.css?233873560" />
 
-    <link rel="stylesheet" href="/assets/styles.css?1732185220" />
-    <link rel="stylesheet" href="/assets/highlightjs-11.9.0-theme.min.css?1732185220" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-
-</head>
-
-<body class="p-log">
-    <!-- <div class="page_content"> -->
-    <main><section>
+    <body class="p-log">
+        <main><section>
     <h1>Printing with colors in Deno</h1>
     <div class="logentry-date">Sat, 16 Nov 2024 15:59</div>
-    <div>Tags: <span class="tags-row">
-            <a href="/log/t/lang:ts/" class="tag">lang:ts</a><a href="/log/t/lang:js/" class="tag">lang:js</a><a href="/log/t/env:deno/" class="tag">env:deno</a><a href="/log/t/area:programming/" class="tag">area:programming</a>
+    <div>
+        Tags:
+        <span class="tags-row">
+            
+            <a href="/log/t/lang:ts/" class="tag">lang:ts</a>
+            
+            <a href="/log/t/lang:js/" class="tag">lang:js</a>
+            
+            <a href="/log/t/env:deno/" class="tag">env:deno</a>
+            
+            <a href="/log/t/area:programming/" class="tag">area:programming</a>
+            
         </span>
     </div>
-    <article class="mt-8 content"><p>It’s <a href="https://docs.deno.com/examples/color-logging/">surprisingly easy</a>.</p>
-<div class="code-block">
-<pre><code class="hljs" data-language="typescript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;%cOK&quot;</span>, <span class="hljs-string">&quot;color: green&quot;</span>);
-<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`%c<span class="hljs-subst">${fileName}</span>`</span>, <span class="hljs-string">&quot;color: orange&quot;</span>);</code></pre>
-<span class="lang-tag">typescript</span>
-</div><ol start="500" type="I">
-<li>
-</li>
-</ol>
+    <article class="mt-8 content"><p>It&rsquo;s <a href="https://docs.deno.com/examples/color-logging/">surprisingly easy</a>.</p>
+<pre><code class="language-ts">console.log("%cOK", "color: green");
+console.log(`%c${fileName}`, "color: orange");
+</code></pre>
+<p>D.</p>
 </article>
     <div class="nav"><a href="/log">&LeftArrow; Back to index</a></div>
-</section></main>
-    <!-- <aside>
-        Who etc.
-    </aside> -->
-    <!-- </div> -->
-</body>
-
+</section>
+</main>
+    </body>
 </html>

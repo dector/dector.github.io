@@ -1,29 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>/dector/log ~ Custom input switch button in GNOME 46</title>
 
-    <title>/dector/log ~ Custom input switch button in GNOME 46</title>
+        <link rel="stylesheet" href="/assets/styles.css?233873560" />
 
-    <link rel="stylesheet" href="/assets/styles.css?1732185220" />
-    <link rel="stylesheet" href="/assets/highlightjs-11.9.0-theme.min.css?1732185220" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-
-</head>
-
-<body class="p-log">
-    <!-- <div class="page_content"> -->
-    <main><section>
+    <body class="p-log">
+        <main><section>
     <h1>Custom input switch button in GNOME 46</h1>
     <div class="logentry-date">Wed, 20 Nov 2024 15:48</div>
-    <div>Tags: <span class="tags-row">
-            <a href="/log/t/area:linux/" class="tag">area:linux</a><a href="/log/t/area:gnome/" class="tag">area:gnome</a>
+    <div>
+        Tags:
+        <span class="tags-row">
+            
+            <a href="/log/t/area:linux/" class="tag">area:linux</a>
+            
+            <a href="/log/t/area:gnome/" class="tag">area:gnome</a>
+            
         </span>
     </div>
     <article class="mt-8 content"><p><strong>Status</strong>: workaround.</p>
@@ -31,25 +35,25 @@
 <p>This year I got tired of fixing issues after KDE updates and decided
 to look around. I decided to try GNOME, I generally liked the experience so
 I moved to it permanently.</p>
-<p>However, I’m using two input methods and use <code>Shift+CapsLock</code> combination
+<p>However, I&rsquo;m using two input methods and use <code>Shift+CapsLock</code> combination
 to switch between them. Sadly, GNOME is not letting me set up this
 combination in the settings. So I googled a bit and found a package called
-“GNOME Tweaks”. It was a solution that worked well for some time.
+&ldquo;GNOME Tweaks&rdquo;. It was a solution that worked well for some time.
 (I dunno why GNOME is not recognizing this combination in the first place).</p>
-<p>What’s wrong with the default <code>Super+Space</code>?</p>
+<p>What&rsquo;s wrong with the default <code>Super+Space</code>?</p>
 <ul>
 <li>
-<p>It’s less ergonomic for me.</p>
+<p>It&rsquo;s less ergonomic for me.</p>
 </li>
 <li>
 <p>Quite often I release <code>Super</code> key with some delay - in this case, I still can
-see “switching graphics” in the middle of the screen. And it feels annoying
+see &ldquo;switching graphics&rdquo; in the middle of the screen. And it feels annoying
 (for me).</p>
 </li>
 </ul>
 <p>However, just a few days ago another issue emerged: my <code>Shift+CapsLock</code>
 combination was cycling not between two input methods (that are set up) in
-GNOME. But between three. Seems like <code>en_GB</code> appeared additionally and I’m not
+GNOME. But between three. Seems like <code>en_GB</code> appeared additionally and I&rsquo;m not
 really aware why. All my keyboard tools (e.g. <code>cat /etc/default/keyboard</code> or
 <code>setxkbmap -print</code>) report only two input methods (as expected).</p>
 <p>So my current workaround is this (not optimal and definitely
@@ -71,29 +75,20 @@ can/should/will be improved):</p>
 <p>In my case, it was <code>custom2</code> keybinding:</p>
 </li>
 </ul>
-<div class="code-block">
-<pre><code class="hljs" data-language="undefined">$ gsettings get org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ name
-'Toggle Keyboard'</code></pre>
-
-</div><ul>
+<pre><code>gsettings get org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ name
+'Toggle Keyboard'
+</code></pre>
+<ul>
 <li>
-Finally, I’ve changed the binding for it:
+Finally, I&rsquo;ve changed the binding for it:
 </li>
 </ul>
-<div class="code-block">
-<pre><code class="hljs" data-language="undefined">$ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '&lt;Shift&gt;Hyper_L'</code></pre>
-
-</div><ol start="500" type="I">
-<li>
-</li>
-</ol>
+<pre><code>gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Shift>Hyper_L'
+</code></pre>
+<p>D.</p>
 </article>
     <div class="nav"><a href="/log">&LeftArrow; Back to index</a></div>
-</section></main>
-    <!-- <aside>
-        Who etc.
-    </aside> -->
-    <!-- </div> -->
-</body>
-
+</section>
+</main>
+    </body>
 </html>
